@@ -1,0 +1,23 @@
+{
+    "name": "commercemodules/homelink",
+    "description": "Add home link to navigation menu",
+    "require": {
+        "php": "~8.1.0"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CommerceModules\\HomeLink\\": ""
+        }
+    }
+}
